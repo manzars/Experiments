@@ -2,7 +2,7 @@
 """
 Created on Mon Jan 14 18:12:26 2019
 
-@author: Lenovo
+@author: Manzar Shaikh
 """
 def tp1(message):
       new_msg = []
