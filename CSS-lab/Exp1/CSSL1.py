@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jan 14 18:12:26 2019
-
+Aim: Design and Implementation of product cipher using substitution and transposition cipher
 @author: Manzar Shaikh
+Roll no: 16CO50
 """
 def tp1(message):
       new_msg = []
@@ -145,7 +145,7 @@ def tp3(message):
       
 def main():
       while(1):
-            print("Enter the type of Encoding\n1. Type 1\n2. Type 2\n3. Type 3\n")
+            print("Enter the type of Encoding\n1. Type 1\n2. Type 2\n3. Type 3\n4. Exit")
             Type = int(input("Enter the Choice\n"))
             if(Type == 1):
                   message = input("Enter the Message: ")
@@ -164,3 +164,55 @@ def main():
 main()
 
 
+"""
+
+aiktc@aiktc-OptiPlex-3046:~/Desktop$ python3 first.py
+Enter the type of Encoding
+1. Type 1
+2. Type 2
+3. Type 3
+4. Exit
+Enter the Choice
+1
+Enter the Message: poonawala
+Your Message is: poonawala
+
+Your Encripted message is: sqdrdorzd
+
+Enter the type of Encoding
+1. Type 1
+2. Type 2
+3. Type 3
+4. Exit
+Enter the Choice
+2
+Enter the Message: poonawala
+Your Message is: poonawala
+
+Your Encripted message is: rqzosrddd
+
+Enter the type of Encoding
+1. Type 1
+2. Type 2
+3. Type 3
+4. Exit
+Enter the Choice
+3
+Enter the Message: poonawala
+Enter the Key: hgtyrdfse
+Your Message is: poonawala
+
+Your Key is: hgtyrdfse
+
+Your Encripted message is: zddrsdorq
+
+Enter the type of Encoding
+1. Type 1
+2. Type 2
+3. Type 3
+4. Exit
+Enter the Choice
+4
+
+
+"""
