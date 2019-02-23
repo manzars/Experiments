@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('Market_Basket_Optimisation.csv', header = None)
+dataset = pd.read_csv('Market_Basket_Optimization.csv', header = None)
 transactions = []
-for i in range(0,7501):
+for i in range(0,7500):
     transactions.append([str(dataset.values[i,j]) for j in range(0,20)])
     
 #training Apriori on the dataset
